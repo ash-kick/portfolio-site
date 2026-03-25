@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="50" fill="#c4b5fd"/>
-  <text x="50" y="67" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#ffffff">A</text>
+  <defs>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#fda4af"/>
+      <stop offset="33%"  stop-color="#f472b6"/>
+      <stop offset="66%"  stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#nameGrad)"/>
+  <text x="50" y="66" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#ffffff" letter-spacing="-1">AK</text>
 </svg>
