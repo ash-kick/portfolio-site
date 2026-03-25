@@ -6,7 +6,7 @@ const projects = [
      {
           title: "EventPop",
           description: "A full-stack event discovery platform with personalized notifications. Browse upcoming events, view details, and track what's happening across SF + LA.",
-          tags: ["React", "Node", "MongoDb", "Vercel"],
+          tags: ["React", "Node.js", "MongoDB", "Vercel"],
           url: "https://event-pop-app.vercel.app/",
           github: "https://github.com/ash-kick/event-pop-app",
      },
