@@ -8,5 +8,5 @@
     </linearGradient>
   </defs>
   <circle cx="50" cy="50" r="50" fill="url(#nameGrad)"/>
-  <text x="50" y="66" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#ffffff" letter-spacing="-1">AK</text>
+  <text x="50" y="66" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="36" font-weight="900" text-anchor="middle" fill="#ffffff" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" letter-spacing="-1">AK</text>
 </svg>
