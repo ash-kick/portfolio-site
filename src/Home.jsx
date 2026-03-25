@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import GeometricBackground from './GeometricBackground'
-import resumePdf from './assets/Ashley_Kicklighter_Software_Engineer_Resume.pdf'
 import './App.css'
 
 export default function Home() {
@@ -24,7 +23,7 @@ export default function Home() {
             View Projects <span className="btn-arrow">→</span>
           </Link>
           <a
-            href={resumePdf}
+            href="/Ashley_Kicklighter_Software_Engineer_Resume.pdf"
             download="Ashley_Kicklighter_Software_Engineer_Resume.pdf"
             className="btn btn-secondary"
           >
